@@ -11,6 +11,7 @@ class TreeNode:
         self.value = value
         self.left = None
         self.right = None
+```
 Функции
 Функция	Описание	Сложность
 insert(root, value)	Вставить значение	O(h)
