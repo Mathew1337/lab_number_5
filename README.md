@@ -21,16 +21,6 @@ class TreeNode:
         self.left = None
         self.right = None
 ```
-# Функции
-Функция	Описание	Сложность
-
-insert(root, value)	Вставить значение	O(h)
-
-search(root, target)	Найти значение	O(h)
-
-inorder(root)	Вывод по возрастанию	O(n)
-
-height(root)	Высота дерева	O(n)
 
 # Пример
 
