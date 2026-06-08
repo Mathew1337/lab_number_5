@@ -3,7 +3,15 @@
 
 ## Описание
 В левом поддереве все значения меньше корня, в правом — больше.
-
+Вычислить высоту дерева (максимальную глубину).(5 задание)
+```python
+def height(root):
+    if root is None:
+        return -1
+    left_height = height(root.left)
+    right_height = height(root.right)
+    return max(left_height, right_height) + 1
+```
 ## Узел
 ```python
 class TreeNode:
